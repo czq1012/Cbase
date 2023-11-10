@@ -1,3 +1,4 @@
-# My Awesome Book
+# C语言基础入门
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+C语言入门是非常棒的一门课程
+
