@@ -2,7 +2,7 @@
 
 ## 例1   输入两个整数，输出两个数中的最大数
 
-```c
+```
 #include<stdio.h>
 int main()
 {    
@@ -18,7 +18,7 @@ int main()
 
 ### 做一次比较，实现同样的功能：
 
-```c
+```
 #include <stdio.h>
 int main()
 { 
