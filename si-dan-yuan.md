@@ -62,7 +62,26 @@ int main()
 }
 ```
 
-例4  编写程序，判断某一年是否是闰年
+## 例4  编写程序，判断某一年是否是闰年
+
+| 序号 | （同时）闰年的条件1 | （同时）闰年的条件2 | （或）闰年的条件3 |
+| :--- | :--- | :--- | :--- |
+| 1 | year%4==0                    | year%4！=100 | 或者year%400==0 |
+
+```
+#include <stdio.h>
+int main()
+{	
+     int year;	
+     scanf("%d",&year); 
+     if(                            )
+         printf("the year is leapyear");
+     else
+         printf("the year is not leapyear");
+     return 0;
+}
+
+```
 
 
 
