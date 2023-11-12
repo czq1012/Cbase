@@ -36,19 +36,56 @@ int main()
 ```c
 #include <stdio.h>
 int main()
-{	
+{    
      int a,b,max,t;
      scanf("%d%d",&a,&b);
      if(a>b)
-     {	   t=a;    //将a的值给t
-      	   a=b;     //将b的值给a（可以这样理解，此时a的值空了）
-      	   b=t;     //将t的值（刚才a的值给b）   最后结果就是a和b互调了
+     {       t=a;    //将a的值给t
+             a=b;     //将b的值给a（可以这样理解，此时a的值空了）
+             b=t;     //将t的值（刚才a的值给b）   最后结果就是a和b互调了
      } 
      printf("FROM MIN TO MAX：%d， %d",a,b);
      return 0;
  }
+```
+
+## 例3 输入一个整数，判断该数是正数，还是负数
 
 ```
+#include <stdio.h>	
+int main()
+{	
+     int x;
+     scanf("%d",&x);	
+
+     return 0;
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
