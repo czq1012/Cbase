@@ -31,5 +31,24 @@ int main()
 }
 ```
 
+## 例2  输入两个整数，按照从小到大的顺序输出
+
+```c
+#include <stdio.h>
+int main()
+{	
+     int a,b,max,t;
+     scanf("%d%d",&a,&b);
+     if(a>b)
+     {	   t=a;    //将a的值给t
+      	   a=b;     //将b的值给a（可以这样理解，此时a的值空了）
+      	   b=t;     //将t的值（刚才a的值给b）   最后结果就是a和b互调了
+     } 
+     printf("FROM MIN TO MAX：%d， %d",a,b);
+     return 0;
+ }
+
+```
+
 
 
