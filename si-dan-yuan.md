@@ -66,6 +66,8 @@ int main()
 
 ### 例4  编写程序，判断某一年是否是闰年
 
+当输入2023，2024，2000，1900的时候，输出为？
+
 | 序号 | （同时）闰年的条件1 | （同时）闰年的条件2 | （或）闰年的条件3 |
 | :--- | :--- | :--- | :--- |
 | 1 | year%4==0 | year%4！=100 | 或者year%400==0 |
@@ -108,21 +110,32 @@ int main()
 
 ### 例6 输入分数，判断优良差
 
+\(当输入78，87，65，23时，输出为？\)
 
+```c
+#include <stdio.h>
+int main()
+{    float s;
+     scanf("%f",&s);	
+     if(s>=0&&s<=100)
+     {
+          if(s>=90)
+               printf("youxiu");
+          else if(s>=80)
+                    printf("lianghao");
+                else if(s>=70)
+                      printf("zhongdeng");
+                      else if(s>=60)
+                                 printf("jige");
+                             else
+                                    printf("bujige");
+     }
+     else
+          printf("buhefa");	
+     return 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
