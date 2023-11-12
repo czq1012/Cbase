@@ -52,40 +52,17 @@ int main()
 ## 例3 输入一个整数，判断该数是正数，还是负数
 
 ```
-#include <stdio.h>	
+#include <stdio.h>    
 int main()
-{	
+{    
      int x;
-     scanf("%d",&x);	
+     scanf("%d",&x);    
 
      return 0;
 }
-
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+例4  编写程序，判断某一年是否是闰年
 
 
 
