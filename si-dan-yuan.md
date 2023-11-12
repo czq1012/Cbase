@@ -16,7 +16,7 @@ int main()
 
 ### 做一次比较，实现同样的功能：
 
-```
+```c
 #include <stdio.h>
 int main()
 { 
