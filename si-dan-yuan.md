@@ -1,6 +1,6 @@
-#                                        第四单元
+# 第四单元
 
-##                                               条件语句
+## 条件语句
 
 ### 例1   输入两个整数，输出两个数中的最大数
 
@@ -53,7 +53,7 @@ int main()
 
 ### 例3 输入一个整数，判断该数是正数，还是负数
 
-```
+```c
 #include <stdio.h>    
 int main()
 {    
@@ -85,6 +85,28 @@ int main()
 ```
 
 ## 条件嵌套
+
+### 例5 如果x为正数，输出1，如果x为负数，输出为-1，如果x为0，输出为0
+
+```c
+#include<stdio.h>
+int main()
+{   int x,y;
+     printf("PLS enter the value of x：\n");
+     scanf("%d",&x);
+     if(x>=0)
+          if(x>0)
+               y=1;
+          else
+               y=0;
+     else
+          y=-1;
+     printf("y=%d\n",y);
+     return 0;
+}
+```
+
+
 
 ### 
 
